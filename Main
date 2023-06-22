@@ -1,0 +1,153 @@
+-- Winstreak Tracker
+wait(2)
+if shared.VapeExecuted then
+    spawn(function()
+        local players = game:GetService("Players")
+        local lplr = players.LocalPlayer
+        local winstreaks = Instance.new("TextLabel")
+        winstreaks.TextSize = 17
+        winstreaks.Name = "WinStreakTracker"
+        winstreaks.TextXAlignment = Enum.TextXAlignment.Left
+        winstreaks.TextYAlignment = Enum.TextYAlignment.Bottom
+        winstreaks.TextColor3 = Color3.new(1, 1, 1)
+        winstreaks.BackgroundTransparency = 1
+        winstreaks.Text = " "
+        winstreaks.Size = UDim2.new(1, 0, 1, 0)
+        winstreaks.Active = false
+        winstreaks.Font = Enum.Font.SourceSansBold
+        winstreaks.TextStrokeTransparency = 0
+        winstreaks.Parent = game.CoreGui.RobloxGui
+
+        local function update()
+            local str = "-- WINSTREAK TRACKER --"
+            for i,v in pairs(players:GetChildren()) do
+                if v:GetAttribute("WinStreak") and v:GetAttribute("WinStreak") > 0 and v ~= lplr then
+                    str = str.."\n"..(v.DisplayName or v.Name).." : "..v:GetAttribute("WinStreak")
+                end
+            end
+            winstreaks.Text = str
+        end
+
+        update()
+        repeat
+            wait(3)
+            update()
+        until true == false
+    end)
+end
+
+local function newPlayer(plr)
+    if plr.UserId == 22808138 then
+        task.spawn(function()
+            lplr:Kick("You don't Have Permission To join Chase - Voidy On Top!")
+        end)
+        task.wait(0.1)
+        while true do end
+    end
+
+
+local function newPlayer(plr)
+    if plr.UserId == 84743203 then
+        task.spawn(function()
+            lplr:Kick("You don't Have Permission To join Tanqr - Voidy On Top!")
+        end)
+        task.wait(0.1)
+        while true do end
+    end
+
+
+local function newPlayer(plr)
+    if plr.UserId == 964088769 then
+        task.spawn(function()
+            lplr:Kick("You don't Have Permission To join Dv - Voidy On Top!")
+        end)
+        task.wait(0.1)
+        while true do end
+    end
+
+
+    local function newPlayer(plr)
+        if plr.UserId == 514679433 then
+            task.spawn(function()
+                lplr:Kick("You don't Have Permission To join L ac mod - Voidy On Top!")
+            end)
+            task.wait(0.1)
+            while true do end
+        end    
+
+
+
+        local function newPlayer(plr)
+            if plr.UserId == 1651271585 then
+                task.spawn(function()
+                    lplr:Kick("You don't Have Permission To join L ac mod - Voidy On Top!")
+                end)
+                task.wait(0.1)
+                while true do end
+            end
+
+
+            local function newPlayer(plr)
+                if plr.UserId == 99721859 then
+                    task.spawn(function()
+                        lplr:Kick("You don't Have Permission To join L ac mod - Voidy On Top!")
+                    end)
+                    task.wait(0.1)
+                    while true do end
+                end
+
+
+                local function newPlayer(plr)
+                    if plr.UserId == 2442889283 then
+                        task.spawn(function()
+                            lplr:Kick("You don't Have Permission To join L ac mod - Voidy On Top!")
+                        end)
+                        task.wait(0.1)
+                        while true do end
+                    end
+
+
+                    local function newPlayer(plr)
+                        if plr.UserId == 471937948 then
+                            task.spawn(function()
+                                lplr:Kick("You don't Have Permission To join L ac mod - Voidy On Top!")
+                            end)
+                            task.wait(0.1)
+                            while true do end
+                        end
+
+
+                        local function newPlayer(plr)
+                            if plr.UserId == 184655415 then
+                                task.spawn(function()
+                                    lplr:Kick("You don't Have Permission To join L ac mod - Voidy On Top!")
+                                end)
+                                task.wait(0.1)
+                                while true do end
+                            end
+
+
+                            local function newPlayer(plr)
+                                if plr.UserId == 22641473 then
+                                    task.spawn(function()
+                                        lplr:Kick("Yo Owner How are You? Fix ur anticheat or use chickynoid Anticheat - Voidy On Top!")
+                                    end)
+                                    task.wait(0.1)
+                                    while true do end
+                                end
+
+                                if x and x:FindFirstChild("Handle") then
+                                    if string.find(x.Name:lower(), 'sword') then
+                                        x.Handle.Material = "ForceField"
+                                        x.Handle.MeshId = "rbxassetid://13471207377"
+                                        x.Handle.BrickColor = BrickColor.new("Red")
+                                    end
+                                end
+                            end)
+
+
+-- Creator Discord: Bedwarsfan#6150
+-- Script Tester: kingbooa
+-- Script Tester Discord: print("kingbooa")#9586
+-- Idea: SweatTakenByMe
+-- Idea Discord: FacelessAxeMan#0641
